@@ -52,6 +52,10 @@ A lot of people do not know that there is an application for the conference in t
 
 I will use Kotlin to write this application from day #0. Especially all the functional concepts of Kotlin will help to make a nice application - not only on the outside. Also I want to have fun while coding - so Kotlin it is.
 
+## Post-processing the conference
+
+Currently there is no application to properly post-process the conference at all. We can use all the data that aggregated in the preparation and attending phase. I imagine this so I can come back home - give into gravity - and all the recordings of the talks I marked interest in are automagically replayed on my big-screen of choice. This then also keeps track of what you have watched and helps giving feedback. We might even try out some automatic feedback here. So when you watch a talk until the very end this is taken as feedback for [frab](http://frab.github.io/frab) and can be used the next years. Non-positive feedback should be avoided as switching off the talk after like 5 minutes could mean that the talk is bad - but it can also mean that some real-world interrupt happened and the talk is actually pretty good. 
+
 ---
 
 This document is intended to get early feedback before the implementation phase - please let me know what would work for you!
