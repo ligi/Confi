@@ -1,18 +1,18 @@
 # Confi Concept and Context
 
-For the	33C3 I was adapting tuxmobils FahrPlan application to the 33C3 as he did not want to do it this year like he did in the years before. At this point I want to thank him for all his work on this application over the years! I have seen some talks that where really important to me and I might have missed otherwise.
-In the process of adapting the application I used the aggregated schedule data from c3voc because I want to attend more sessions that are not in the main halls. The applications in the main halls are recorded and I can enjoy at home in a calm mindset and do not have to waste precious conference time. I got great feedback about this and attended more sessions outside the main schedule than ever before.
-For the	34C3 I want to write a new application from scratch as I have some Ideas that are really hard to retro-fit into the old application architecture. A rewrite from scratch will be faster and more fun. Here I will collect some ideas and corner-stones:
+For the	[33C3](https://events.ccc.de/congress/2016/wiki/Main_Page) I was adapting [tuxmobils FahrPlan application](http://github.com/tuxmobil/campfahrplan) to the 33C3 as he did not want to do it this year like he did in the years before. At this point I want to thank him for all his work on this application over the years! I have seen some talks that where really important to me and I might have missed otherwise.
+In the process of adapting the application I used the aggregated schedule data from [c3voc](https://c3voc.de) because I want to attend more sessions that are not in the main halls. The applications in the main halls are recorded and I can enjoy at home in a calm mindset and do not have to waste precious conference time. I got great feedback about this and attended more sessions outside the main schedule than ever before.
+For the	34C3 I want to write a new application from scratch as I have some Ideas that are really hard to retro-fit into the old application architecture. A rewrite from scratch will be faster and more fun. Here I will collect some ideas and corner-stones.
 
 ## Multi-phase Conference
 
 The Conference has multiple phases:
 
- * conference preparation ( HalfNarp / SCR )
+ * conference preparation ( [HalfNarp](http://halfnarp.events.ccc.de) / [SCR](https://github.com/ligi/SCR) )
  * attending the conference ( TimeLine / notifications / favorites .. )
  * post-processing the conference ( recordings / feedback )
 
-This should not be reflected with different applications like it is implemented right now. This gets rid of the the overhead of data-sharing between the applications and provides a way better user experience.
+This should not be reflected via different applications like it is implemented right now. This gets rid of the the overhead of data-sharing between the applications and provides a way better user experience.
 
 ## Use RecyclerView for the TimeLine
 
@@ -46,15 +46,15 @@ Currently to adopt the application to a Congress you have to have expert knowled
 
 ## Integration in the ticket-system
 
-A lot of people do not know that there is an application for the conference in the first place. The rate might be higher at a chaos conference but still there where participants without this knowledge. I want a pointer from the esPass to the application so more people find the application without having to poll a application-store they miss trust the least.
+A lot of people do not know that there is an application for the conference in the first place. The rate might be higher at a chaos conference but still there where participants without this knowledge. I want a pointer from the (esPass)[http://espass.it] to the application so more people find the application without having to poll a application-store they miss trust the least.
 
 ## Kotlin
 
-I will use Kotlin to write this application from day #0. Especially all the functional concepts of Kotlin will help to make a nice application - not only on the outside. Also I want to have fun while coding - so Kotlin it is.
+I will use [Kotlin](https://kotlinlang.org) to write this application from day #0. Especially all the functional concepts of Kotlin will help to make a nice application - not only on the outside. Also I want to have fun while coding - so Kotlin it is.
 
 ## Post-processing the conference
 
-Currently there is no application to properly post-process the conference at all. We can use all the data that aggregated in the preparation and attending phase. I imagine this so I can come back home - give into gravity - and all the recordings of the talks I marked interest in are automagically replayed on my big-screen of choice. This then also keeps track of what you have watched and helps giving feedback. We might even try out some automatic feedback here. So when you watch a talk until the very end this is taken as feedback for [frab](http://frab.github.io/frab) and can be used the next years. Non-positive feedback should be avoided as switching off the talk after like 5 minutes could mean that the talk is bad - but it can also mean that some real-world interrupt happened and the talk is actually pretty good. 
+Currently there is no application to properly post-process the conference at all. We can use all the data that aggregated in the preparation and attending phase. I imagine this so I can come back home - give into gravity - and all the recordings of the talks I marked interest in are automagically replayed on my big-screen of choice. This then also keeps track of what you have watched and helps giving feedback. We might even try out some automatic feedback here. So when you watch a talk until the very end this is taken as feedback for [frab](http://frab.github.io/frab) and can be used the next years. Non-positive feedback should be avoided as switching off the talk after like 5 minutes could mean that the talk is bad - but it can also mean that some real-world interrupt happened and the talk is actually pretty good.
 
 ---
 
