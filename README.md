@@ -46,7 +46,8 @@ Currently to adopt the application to a Congress you have to have expert knowled
 
 ## Integration in the ticket-system
 
-A lot of people do not know that there is an application for the conference in the first place. The rate might be higher at a chaos conference but still there where participants without this knowledge. I want a pointer from the (esPass)[http://espass.it] to the application so more people find the application without having to poll a application-store they miss trust the least.
+A lot of people do not know that there is an application for the conference in the first place. The rate might be higher at a chaos conference but still there where participants without this knowledge. I want a pointer from the [esPass](http://espass.it) to the application so more people find the application without having to poll a application-store they miss trust the least.
+The solution I have in mind currently is that when you setup your conference in [pretix](https://github.com/pretix): you specify a pointer to the conference data that then ends up in confi offering you guidance through the conference.
 
 ## Kotlin
 
