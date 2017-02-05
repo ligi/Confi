@@ -32,6 +32,10 @@ The event is one continuous timeline. I always hated switching between days. Dif
 The application should use a collapsing ToolBar ( using the RecyclerView is a good groundwork for this )
 This gives more screen real estate to relevant information.
 
+## Change management
+
+It is quite common that the schedule of the conference changes before and while it is happening. The application must be able to load a new version of the conference schedule. Changes must be presented to the user in a suitable way. Changes include cancelation, location change, time change, speaker change or content related changes such as a new title or description, ... The user should be able to choose which changes she wants to see. The following filters might be useful: "only changes affecting favorites", "only events of the future".
+
 ## Sync favorites
 
 The application should contain the ability to sync favorites between your own devices and if wanted with other people. There could be a conference following so I see the talks highlighted that people I follow have marked interest in. This should be detached from social networks and have privacy and decentralisation in mind.
