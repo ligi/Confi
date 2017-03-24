@@ -1,6 +1,6 @@
 # Confi Concept and Context
 
-For the	[33C3](https://events.ccc.de/congress/2016/wiki/Main_Page) I was doing the adoption for [tuxmobil's FahrPlan application](http://github.com/tuxmobil/campfahrplan) as he did not want to do it 2016 like he did in the years before.
+For the	[33C3](https://events.ccc.de/congress/2016/wiki/Main_Page) I was doing [the adoption](https://play.google.com/store/apps/details?id=org.ligi.fahrplan) for [tuxmobil's FahrPlan application](http://github.com/tuxmobil/campfahrplan) as he did not want to do it 2016 like he did in the years before.
 At this point I want to thank him for all his work on this application over the years! I have seen some talks that have been really important to me that I might have missed if this app would not have been on my side at the event.
 In the process of adapting the application I used the aggregated schedule data from [c3voc](https://c3voc.de) because I want to attend more sessions that are not in the main halls. The presentations in the main halls are recorded anyway. So I can also enjoy them at home in a calm mindset and do not have to waste precious conference time. I got great feedback about this "feature" and attended more sessions apart from the main schedule than on all congresses before.
 For the	34C3 I want to write a new application from scratch as I have some Ideas that are really hard to retro-fit into the old application architecture. A rewrite from scratch will be faster and more fun. Here I will outline some ideas, insights and corner-stones.
