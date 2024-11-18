@@ -13,7 +13,7 @@ A Conference has multiple phases:
  * Attending the conference (TimeLine / notifications / favorites ..)
  * Post-processing the conference (recordings / feedback)
 
-This should not be reflected by different applications like it is the state of the art. If all phases are addressed with the same app we get rid of the the need and overhead to share data between the applications. This does not only reduce code complexity, but also provides a significantly better user experience.
+This should not be reflected by different applications like it is the state of the art. If all phases are addressed with the same app we get rid of the the need and overhead to share data between the applications. This does not only reduce code complexity, but also provides a significantly better user experience. So if you mared interest for a session in the halfnarp it should be highlighted in the scheduling at the conference e.g. in a timeline view "Sessions you are interested in" and after the conference it can highlight the recording of these sessions.
 
 ## Use RecyclerView for the timeline
 
